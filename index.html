@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>registration form,
+            By Mona Galal</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta property="og:title" content="calculaters">
+        <meta property="og:type" content="website">
+         <meta property="og:url" content="">
+        <meta property="og:discription" content="HTML, CSS, javaScrip">
+        <meta property="og:local" content="en_us">
+        <meta property="og:site_name" content="calculaters">
+         <link rel="icon" href="img/okay.png">
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </head>
+
+<body> 
+       <header class="header"> Welcome To  Registeration page</header>
+        <main> 
+            <section id="welcome">
+                <br>
+<h1> Welcome To Registeration page</h1>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus perspiciatis, enim sed veniam expedita quae? Natus, eos? Minima maiores harum corrupti cumque placeat omnis ut ea facere nisi? Officiis, atque.</p>
+       
+<br>   </section> 
+           <br>
+    <div class="container">
+        <div class="form-box" action="/" method="post">
+        
+
+            <img class="image" src="img/okay.png" alt=""> 
+
+            <form action="" name="Formfill" onsubmit="return validation()">
+                <br>
+                <h2>Register</h2>
+
+                <p id="result"></p>
+
+                <div class="input-box">
+                    <label for="Username"> 
+           <ion-icon name="person-add-outline"></ion-icon>
+                  UserName</label>
+                    <input type="text" name="Username" placeholder="Username" >
+                </div>
+
+                <div class="input-box">
+                    <label for="email"> <ion-icon name="mail-outline"></ion-icon>Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="email" name="Email" placeholder="email" >
+                </div>
+
+
+                <div class="input-box">
+                    <label for="Password"><ion-icon name="lock-closed-outline"></ion-icon>Password &nbsp;</label>
+                    <input type="Password" name="Password" placeholder="Password">
+                </div>
+
+
+                <div class="input-box">
+                    <label for="Password"><ion-icon name="lock-closed-outline"></ion-icon>Confirm Password</label>
+                    <input type="Password" name="cPassword" placeholder="Confirm Password">
+                </div>
+
+
+
+                <div class="button"> 
+                    <input id="btn" type="submit" onclick="validation()" value="Register">
+                </div>
+                
+                <div class="group">
+                    <span><a href="#">Forget-password &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></span>
+                    <span><a href="login.html">login</a></span>
+                <br>
+                </div>
+                <br>
+
+            </form>
+        </div>
+      </div>
+      <br>
+
+      <div class="popup" id="popup">
+        <ion-icon name="checkmark-done-circle-outline"></ion-icon>
+                <h2>Thank you!</h2>
+        <p>Your registration was successed. Thanks!</p>
+    <a href="login.html">
+        <button id="CloseSlide" onclick="CloseSlide()"> OK</button>
+    </a>  
+    </div>
+
+      <br> <br>
+        </main> 
+        <footer class="footer"> &lt; &copy; Mona Galal &gt; </footer>
+<script src="JS/main.js"></script>
+    </body>
+
+</html>
