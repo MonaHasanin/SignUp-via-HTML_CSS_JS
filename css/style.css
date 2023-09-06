@@ -231,7 +231,7 @@ box-shadow: 3px 0 10px rgb(32, 21, 95);
       body {
         width: 260px;
       }
-      #welcome   { 
+      .welcome   { 
               display: none;
 
         } 
@@ -249,6 +249,17 @@ box-shadow: 3px 0 10px rgb(32, 21, 95);
         align-items: center;
     } 
      
+    
+    .popup {
+      top: 0;
+      left: 50%;
+       width: 450px;
+      margin-top: -130px;
+       visibility: visible;
+       position: absolute;
+       padding: 10px 80px 150px 80px;
+      height: 590px;
+     }
     }
 
     @media only screen and (max-width: 412px) {
@@ -293,9 +304,32 @@ box-shadow: 3px 0 10px rgb(32, 21, 95);
       .container > .ion-icon {
         padding-right: 10px;
       }
-      form {
-        padding-left: 10vw;
+      #rew
+      {
+      height: 400px;
+      }
+      .form-box  {
+                padding-left: 10vw;
+        margin-right: 10px;
       } 
+
+      .popup {
+        top: 0;
+        left: 50%;
+         width: 250px;
+        margin-top: -90px;
+         visibility: visible;
+         position: absolute;
+         padding: 1px 80px 150px 80px;
+        height: 570px;
+       }
+       footer {
+        padding-bottom: 7px;
+        width: auto;
+        padding-top: 12px;
+        margin-top: 61px;
+        margin-right: -100%;
+       }
     }
 
     @media only screen and (max-width: 1280px) {
@@ -309,9 +343,13 @@ box-shadow: 3px 0 10px rgb(32, 21, 95);
       body {
         width: 650px;
       }
-     #welcome  {
-      display: none;
-     } 
+     .welcome  {
+     text-align: center;
+     justify-content: center;
+     width: 640px;
+     margin-left: 50%;
+
+        } 
      .form-box {
         width: 640px;
         justify-content: center;
@@ -334,7 +372,8 @@ box-shadow: 3px 0 10px rgb(32, 21, 95);
       }
       form {
         padding-right: 10vw;
-      } 
+      }
+      
       .footer {
         padding-bottom: 30px;
       }
@@ -346,4 +385,14 @@ box-shadow: 3px 0 10px rgb(32, 21, 95);
         text-decoration: none;
         font-weight: 500;
       }
+      .popup {
+        top: 0;
+        left: 50%;
+         width: 550px;
+        margin-top: -10px;
+         visibility: visible;
+         position: absolute;
+         padding: 1px 80px 150px 80px;
+        height: 590px;
+       }
     }
